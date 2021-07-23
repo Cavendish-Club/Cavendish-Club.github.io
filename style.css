@@ -9,7 +9,7 @@ h1 {
     color: #7fc7af;
 }
 
-.gamePlayer {
+#gamePlayer {
     border: 2px solid black;
 }
 
