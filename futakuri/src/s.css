@@ -1,0 +1,62 @@
+* {
+	margin : 0px;
+	padding : 0px;
+	border: 0px;
+	border-width:0px;
+	border-style:solid;
+	border-color:#587f9e;
+	font-size: 12px;
+	font-weight: normal;
+	border-collapse: collapse;
+
+}
+
+body {
+	background:#feebde;
+	color: #000000;
+	background-image: url("back-2.png");
+}
+
+a:link { color:#110000; }
+a:visited { color: #884400; }
+a:hover { color: #ff0000; }
+a:active { color: #aa00aa; }
+
+
+
+
+hr { 
+	margin: 15px 0px 10px 0px;
+	border-style:dashed;
+	border-width:1px 0px 0px 0px;
+	height: 1px;
+	border-color: #fde1d1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

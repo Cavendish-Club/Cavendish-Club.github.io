@@ -25,6 +25,11 @@ li {
     justify-content: center;
 }
 
+ul {
+    width: 920px;
+    list-style-type: none;
+}
+
 .container {
     position: relative;
     /*overflow: hidden;
