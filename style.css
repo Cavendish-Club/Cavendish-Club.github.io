@@ -27,8 +27,8 @@ li {
 
 .container {
     position: relative;
-    width: 920px;
-    height: 430px;
+    padding-top: 46.74%;
+ /* 43:92 aspect ratio */
     border: 2px solid black;
     display: flex;
     justify-content: space-evenly;
