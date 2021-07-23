@@ -8,7 +8,7 @@
         <link rel="icon" href="furry_princess/icon/icon.png" type="image/png">
         <title>The Furry Princess's Beach Trip</title>
         <script type="text/javascript">
-var button = document.querySelector('.button');
+var button = document.querySelector(".Btn");
 button.addEventListener('click', fullscreen);
 // when you are in fullscreen, ESC and F11 may not be trigger by keydown listener. 
 // so don't use it to detect exit fullscreen
@@ -29,7 +29,7 @@ function fullscreen() {
     document.msFullscreenEnabled) {
     
     // which element will be fullscreen
-    var iframe = document.querySelector('iframe');
+    var iframe = document.querySelector(".frame");
     // Do fullscreen
     if (iframe.requestFullscreen) {
       iframe.requestFullscreen();
@@ -58,7 +58,7 @@ function fullscreenChange() {
   }
   // force to reload iframe once to prevent the iframe source didn't care about trying to resize the window
   // comment this line and you will see
-  var iframe = document.querySelector('iframe');
+  var iframe = document.querySelector(".frame");
   iframe.src = iframe.src;
 }
 </script>
