@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjp.css">
-        <link rel="stylesheet" href="/style.css">    
+        <link rel="stylesheet" href="/style.css">
+        <link rel="icon" href="furry_princess/icon/icon.png" type="image/png">
+        <title>The Furry Princess's Beach Trip</title>
     </head>
     <body>
         <h1>Cavendish Club</h1>
         <h2>The Furry Princess's Beach Trip</h2>
-        <iframe scrolling="no" allowfullscreen="true" id="gamePlayer" class="gamePlayer" src="/furry_princess/index.html" width="816px" height="624px">
+        <iframe class="frame" scrolling="no" allowfullscreen="true" id="gamePlayer" class="gamePlayer" src="/furry_princess/index.html" width="816px" height="624px">
         </iframe>
+        <button class="Btn">Fullscreen</button>
+        <script>
+            let buttonElement = document.querySelector(".Btn");
+            let frameElement = document.querySelector(".frame");
+            buttonElement.addEventListener("click", () => { frameElement.className = "fullScreen"; });
+        </script>
     </body>
 </html>
