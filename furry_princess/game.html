@@ -17,7 +17,10 @@
         <script>
             let buttonElement = document.querySelector(".Btn");
             let frameElement = document.querySelector(".frame");
-            buttonElement.addEventListener("click", () => { frameElement.className = "fullScreen"; });
+            buttonElement.addEventListener("click", () => {
+                //frameElement.className = "fullScreen";
+                frameElement.requestFullscreen();
+            });
         </script>
     </body>
 </html>
