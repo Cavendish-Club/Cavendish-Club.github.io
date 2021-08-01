@@ -30,7 +30,7 @@ li {
     /*overflow: hidden;
     padding-top: 46.74%;*/
     width: 920px;
-    height: 430px;
+    max-height: 430px;
     object-fit: cover;
     border: 2px solid black;
     display: flex;
