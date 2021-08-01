@@ -5,8 +5,8 @@ body {
     text-align: center;
 }
 
-h1 {
-    color: #7fc7af;
+.teal {
+    background-color: #7fc7af;
 }
 
 #gamePlayer {
@@ -29,7 +29,6 @@ li {
     position: relative;
     overflow: hidden;
     zoom: 1;
-    /* padding-top: 46.74%;*/
     width: 920px;
     max-height: 430px;
     object-fit: cover;
