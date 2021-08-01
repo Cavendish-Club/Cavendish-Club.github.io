@@ -27,8 +27,9 @@ li {
 
 .container {
     position: relative;
-    /*overflow: hidden;
-    padding-top: 46.74%;*/
+    overflow: hidden;
+    zoom: 1;
+    /* padding-top: 46.74%;*/
     width: 920px;
     max-height: 430px;
     object-fit: cover;
