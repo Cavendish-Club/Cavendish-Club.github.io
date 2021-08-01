@@ -62,7 +62,7 @@ li {
 }
 
 .container img {
-    align-items: flex-start;
+    /* align-items: flex-start; */
     position: absolute;
     display: block;
     object-fit: fill;
