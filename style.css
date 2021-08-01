@@ -3,10 +3,12 @@ body {
     color: #FFF;
     font-family: 'Noto Sans JP';
     text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .teal {
-    background-color: #7fc7af;
+    background-color: #009688;
 }
 
 #gamePlayer {
